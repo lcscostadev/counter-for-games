@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import bgSvg from './assets/bg.svg';
-import { Navbar } from './components';
+import { Navbar, Counter } from './components';
 import PropTypes from 'prop-types';
 
 const AppWrapper = ({ children }) => {
@@ -25,6 +25,7 @@ const App = () => {
     <>
       <AppWrapper>
         <Navbar />
+        <Counter />
         {/* Your other components go here */}
       </AppWrapper>
     </>
